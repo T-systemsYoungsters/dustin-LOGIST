@@ -56,7 +56,7 @@
 - Eine Variable, welche nach der Deklaration nicht mehr verändert werden kann.
 
 # 16. How are variable names for constants different than other variable names?
-- Constanten werden ausschließlich uppercase deklariert
+- Konstanten werden ausschließlich uppercase deklariert
 
 # 17. What is a single quote and what is a double quote? Give and label an example of both.
 - "You've" -> Double quotes, da single quotes ein Bestandteil des Textes sind.
