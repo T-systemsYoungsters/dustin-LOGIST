@@ -10,8 +10,8 @@
 - Grundgedanke
   - Der Tür- bzw. Fenstersensor soll die Stellung derselben erkennen und wiedergeben können.
 - Funktionsumfang
-  - Fensterstellung erkennen (Offen, Geschlossen, Angekippt)
-  - Fensterstellung melden / anzeigen
+  - Tür- bzw. Fensterstellung erkennen (Offen, Geschlossen, Angekippt)
+  - Tür- bzw. Fensterstellung melden / anzeigen
 
 # Diebstahlmelder
 - Grundgedanke
