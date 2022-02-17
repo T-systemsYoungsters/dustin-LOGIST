@@ -111,7 +111,7 @@ while not done:
         print("-------------------")
 
     # 20.
-    if distance_natives_traveled == 0:
+    if distance_natives_traveled <= 0:
         print("------------------------")
         print("The natives catched you!")
         print("------------------------")
