@@ -22,7 +22,7 @@ distance_natives_traveled = -20
 num_drinks_canteen = 10
 
 # 3.
-while done == False:
+while not done:
     # 4.
     print("A. Drink from your canteen.")
     print("B. Ahead moderate speed.")
@@ -83,19 +83,20 @@ while done == False:
             print("---------------")
             print("No more drinks!")
             print("---------------")
-
-    # 16.
-    if thirst > 4:
-        print("----------------")
-        print("You are thirsty!")
-        print("----------------")
-        
+    
     # 17.
-    elif thirst > 6:
+    if thirst > 6:
         print("-------------------")
         print("You died of thirst!")
         print("-------------------")
         done = True
+
+    # 16.
+    elif thirst > 4:
+        print("----------------")
+        print("You are thirsty!")
+        print("----------------")
+        
 
     # 18.
     if camel_tiredness > 5:
@@ -131,7 +132,7 @@ while done == False:
 
     # 23.
     i = random.randrange(1, 21)
-    if i == 1:
+    if i == 1 and done == False:
         print("------------------")
         print("You foud an oasis!")
         print("------------------")
