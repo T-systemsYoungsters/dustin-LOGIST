@@ -83,20 +83,19 @@ while not done:
             print("---------------")
             print("No more drinks!")
             print("---------------")
+
+    # 16.
+    if thirst in range(5, 7):
+        print("----------------")
+        print("You are thirsty!")
+        print("----------------")
     
     # 17.
     if thirst > 6:
         print("-------------------")
         print("You died of thirst!")
         print("-------------------")
-        done = True
-
-    # 16.
-    elif thirst > 4:
-        print("----------------")
-        print("You are thirsty!")
-        print("----------------")
-        
+        done = True 
 
     # 18.
     if camel_tiredness > 5:
