@@ -54,15 +54,15 @@ while not done:
     x_leaves_origin = 127
     y_leaves_origin = 45
 
-    for i in range(1, 3):
+    for i in range(2):
         # Tree-stem
-        pygame.draw.rect(screen, BROWN, pygame.Rect(x_stem_origin, y_stem_origin, stem_width, stem_height))
+        pygame.draw.rect(screen, BROWN, [x_stem_origin, y_stem_origin, stem_width, stem_height])
 
         # Tree-leaves
         pygame.draw.circle(screen, GREEN, (x_leaves_origin, y_leaves_origin), leaves_rad)
 
-        x_stem_origin = x_stem_origin + (i * 60)
-        x_leaves_origin = x_leaves_origin + (i * 60)
+        x_stem_origin = x_stem_origin + 60
+        x_leaves_origin = x_leaves_origin + 60
         
     pygame.display.flip()
     clock.tick(60)
