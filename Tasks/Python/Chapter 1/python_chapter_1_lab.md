@@ -23,3 +23,5 @@ print("----------------------------------")
 area = pi * (r * r)
 
 print("The area of the circle is:", area)
+
+VS Code Mac Test 5
